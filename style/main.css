@@ -1,0 +1,251 @@
+#navbar{
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(1,30,41);
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: space-between;
+ position: fixed;
+     
+}
+#navbar>div{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    /* border: 1px solid white; */
+    /* padding: 10px; */
+}
+#ht>img{
+    /* border: 2px solid rgb(250, 5, 5); */
+    width: 90%;
+     margin-left: 10px; 
+     margin-top: 10px  ;
+    height: 70%;
+      
+     
+}
+#ex>div{
+    /* border: 1px solid red; */
+    width: auto;
+    margin: auto;
+    height: 50%;
+    margin-left: 150px;
+}
+#ex p{
+    color:  white;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+}
+#up{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* width: 50%; */
+    justify-content: space-around;
+    /* border: 1px solid red; */
+   
+}
+ #sn p{
+    color: white;
+ }
+ #sn>div{
+    /* border:  1px solid red; */
+    width: 80%;
+    height: 50%;
+    margin: auto;
+ }
+ #game{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* justify-content: stretch; */
+ }
+ #b{
+    display: inline;
+ }
+ #btn{
+    height: 30px;
+    background-color: white;
+ }
+ #sub>div{
+   margin-left: 50px;
+ 
+   /* border: 1px solid red; */
+ }
+ #footer{
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(1,30,41);
+    /* border: 3px solid red; */
+ }
+ #fst{
+    width: 85%;
+   
+    height: 200px;
+    margin: auto;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    display: flex;
+ }
+ #fst1{
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    /* border: 2px solid yellowgreen; */
+ }
+ #fst2{
+    width: 40%;
+    height: 90%;
+    margin: auto;
+    /* border: 2px solid yellowgreen; */
+ }
+ #random{
+    width: 90%;
+    height: 200px;
+ }
+ #fst1 p{
+    color:  white;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+ }
+ #sel{
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+ }
+  #email{
+ height: 37px;
+ border-radius: 5px;
+ width: 300px;
+}
+#SUBSCRIBE{
+    height: 40px;
+    border-radius: 5px;
+     background-color: rgb(1,30,41);
+    color: white;
+    border: 1px solid white;
+    width: 130px;
+}
+#logo{
+    /* border: 1px solid red; */
+    width: 60%;
+  margin-top: 50px;
+  margin-left: 180px;
+}
+#logo img{
+    margin-left: 20px;
+}
+#do>img{
+    margin-left: 50px;
+    /* border: 1px solid red; */
+}
+#logo>img:hover{
+   height: 25px;
+   cursor: pointer;
+}
+#SUBSCRIBE:hover{
+   color: red;
+   cursor: pointer;
+   font-size: 15px;
+}
+#fst1 p:hover{
+   color:  rgb(244, 12, 12);
+   cursor: pointer;
+   text-decoration: underline;
+   /* font-size: 18px; */
+}
+#line{
+   width: 85%;
+   margin: auto;
+   /* height: 1px; */
+   border: 1px solid rgb(48,71,89);
+   margin-bottom: 20px;
+}
+#mid>div>h6{
+   color: white;
+}
+#mid{
+    
+   display:grid;
+   grid-template-columns: repeat(6,1fr);
+   width: 85%;
+   margin: auto;
+   /* border: 1px solid red; */
+  
+}
+#mid>div{
+   /* border: 1px solid white; */
+   width: auto;
+}
+#mid>div>h6:hover{
+   color: red;
+ text-decoration: underline;
+ cursor: pointer;
+}
+#mid>div>h6{
+   color: white;
+   font-size: 15px;
+   text-align: center;
+   margin-bottom: 10px;
+   margin-top: -0px;
+}
+#end{
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   margin: auto;
+   width: 85%;
+   /* background-color: rgb(0,19,26); */
+}
+#end>div> p{
+   color: white;
+   font-family: Lato, sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+   text-align: left;
+   cursor: pointer;
+   
+}
+#end>div> p:hover{
+   text-decoration: underline;
+   color: red;
+}
+#end>div{
+   margin: auto;
+}
+#lastend{
+   background-color:rgb(0,19,26) ;
+   height: 310px;
+}
+#line2{
+width: 85%;
+   margin: auto;
+   /* height: 1px; */
+   border: 1px solid rgb(48,71,89);
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+#lastimg{
+   width: 85%;
+   height: 100px;
+   /* border: 1px solid red; */
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(10,1fr);
+   text-align: center;
+}
+#lastimg>img{
+   height: 30px;
+   margin-bottom: 0px;
+   margin-top: -0px;
+   cursor: pointer;
+}
+#txt{
+   color: white;
+   text-align: center;
+   cursor: pointer;
+}
+#lastimg img:hover{
+   cursor: pointer;
+   height:27px ;
+}
