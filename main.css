@@ -1,0 +1,68 @@
+body{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+#container > div{
+    /* width: 500px; */
+    border: 1px solid black;
+    /* height: 1000px; */
+}
+#container>#latest_news{
+    flex: 2;
+}
+#container>#top_news{
+    flex: 4;
+    padding: 5px;
+}
+#container>#viral{
+    flex: 2;
+}
+
+#top_news>div{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+}
+#top_news div>img{
+    width: 200px;
+    height: 180px;
+    border-radius: 5%;
+}
+
+#latest_news>div{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    text-align: left;
+    justify-content: left;
+    padding: 0px 16px;
+}
+
+
+#top_news div h4{
+    color: skyblue;
+}
+#top_news div:nth-child(1){
+    text-align: left;
+    justify-content: left;
+     padding: 0px 10px;
+}
