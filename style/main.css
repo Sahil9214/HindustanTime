@@ -2,6 +2,7 @@
     /* border: 1px solid red; */
     width: 100%;
     background-color: rgb(1,30,41);
+    /* background-color: red; */
     height: 120px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -66,6 +67,12 @@
  #btn{
     height: 30px;
     background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ #btn:hover{
+   background-color: red;
+   color: white;
  }
  #sub>div{
    margin-left: 50px;
@@ -179,14 +186,14 @@
    width: auto;
 }
 #mid>div>h6:hover{
-   color: red;
+   color: white;
  text-decoration: underline;
  cursor: pointer;
 }
 #mid>div>h6{
-   color: white;
+   color: rgb(48,71,89);
    font-size: 15px;
-   text-align: center;
+   text-align: start;
    margin-bottom: 10px;
    margin-top: -0px;
 }
@@ -249,3 +256,35 @@ width: 85%;
    cursor: pointer;
    height:27px ;
 }
+#sn>div>div img{
+   width: 20px;
+   height: 20px;
+   border-radius: 30%;
+   /* margin-left: 10px; */
+   margin-bottom: -5px;
+}
+#sn>div>div img:hover{
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+ #up>div img{
+   /* border: 1px solid red; */
+   width: 25px;
+   height: 20px;
+   margin-bottom: -7px;
+   cursor: pointer;
+
+ }
+ #down img{
+   /* border: 1px solid red; */
+   width: 15px;
+   margin-bottom: -2px;
+   height: 15px;
+   cursor: pointer;
+ }
+ #down img:hover{
+   width: 20px;
+   height: 20px;
+ }
+    
