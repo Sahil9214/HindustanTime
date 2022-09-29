@@ -1,3 +1,6 @@
+body{
+   background-color: rgb(245,245,245);
+}
 #navbar{
     /* border: 1px solid red; */
     width: 100%;
@@ -8,7 +11,9 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     justify-content: space-between;
- position: fixed;
+ /* position: fixed; */
+ 
+ 
      
 }
 #navbar>div{
@@ -287,4 +292,124 @@ width: 85%;
    width: 20px;
    height: 20px;
  }
-    
+    #types{
+      /* border: 1px solid red; */
+      /* position: fixed; */
+      background-color: white;
+    }
+#withoutbox{
+   width: 85%;
+   margin: auto;
+   display: flex;
+   /* border: 1px solid green; */
+}
+#withbox{
+   width: 85%;
+   margin: auto;
+   display: flex;
+   /* border: 1px solid rgb(4, 0, 128); */
+}
+#withoutbox>div{
+   /* border: 1px dotted red; */
+   margin: auto;
+
+}
+#withbox>div{
+  border: 1px solid grey;
+   margin: auto;
+   
+   /* background-color: green; */
+   border-radius: 15px;
+   height: 30px;
+   width: auto;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-bottom: 20px;
+}
+#withbox>div:hover{
+   background-color: #bdf6ff;
+   border: 1px solid blue;
+   cursor: pointer;
+}
+#withoutbox>div p{
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+   font-weight: bold;
+   
+   color: 212121;
+}
+#withoutbox>div p:hover{
+  color: #00b1cd;
+  cursor: pointer;
+}
+#withbox>div p{
+   /* margin-bottom: -50px; */
+   color: black;
+   margin-top: 5px;
+   font-family: Lato, sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+}
+#more{
+   border: 0px;
+   margin-top: 5px;
+   
+}
+#more:hover{
+   background-color:#9ff2ff ;
+   cursor: pointer;
+}
+/* ................................................ */
+/* .modal{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%) scale(0) ;
+   transition: 200ms ease-in-out;
+   border: 2px solid red;
+   border-radius: 10px;
+   z-index: 10;
+   width: 500px;
+   max-width: 80%;
+   background-color: white;
+}
+.modal.active{
+   transform: translate(-50%,-50%) scale(1) ;
+}
+.modal-header{
+   padding: 10px 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid black;
+}
+.modal-header .title{
+   font-size: 1.25rem;
+   font-weight: bold;
+}
+.modal-header .close-button{
+   cursor: pointer;
+   border: none;
+   outline: none;
+   background-color: none;
+   font-size: 1.25rem;
+   font-weight: bold;
+}
+.modal-body{
+   padding: 10px 15px;
+}
+#overlay{
+   position: fixed;
+   top: 0;
+   transition: 200ms ease-in-out;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0,0,0,.5);
+   pointer-events: none;
+}
+#overlay.active{
+   pointer-events: all;
+   opacity: 1;
+} */
