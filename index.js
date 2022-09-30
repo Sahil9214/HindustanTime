@@ -339,6 +339,45 @@ start(arr)
 
 
 
+let shop=document.getElementById("advertigment_shop");
+
+const shop_now=async()=>{
+
+try{
+    let res=await fetch(`https://fakestoreapi.com/products/category/electronics`)
+    let data=await res .json();
+    console.log("electronics",data);
+    ShopnowData(data);
+}
+catch(err){
+    console.log(err);
+}
+
+}
+shop_now();
+
+
+ShopnowData=(data)=>{
+
+data.forEach((el)=>{
+
+let div=document.createElement("div");
+
+let title=document.createElement("p");
+title.innerText=el.title;
+
+
+let image= document.createElement("img");
+image.src=el.image;
+
+div.append(image,title);
+shop.append(div);
+
+
+})
+
+
+}
 
 
 
