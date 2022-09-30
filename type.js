@@ -1,5 +1,5 @@
 const type=function(){
-    return `        <div id="withoutbox">
+    return `<div id="withoutbox">
     <div>
         <p>Home</p>
     </div>
@@ -7,7 +7,7 @@ const type=function(){
         <p>Latest</p>
     </div>
     <div>
-        <p>Inida</p>
+        <p>India</p>
     </div>
     <div>
         <p>World</p>
@@ -16,7 +16,8 @@ const type=function(){
         <p>Noida</p>
     </div>
     <div>
-        <p>Entertainment</p>
+        <p id="Entertainment">Entertainment
+</p>
     </div>
     <div>
         <p>Cricket</p>
@@ -43,13 +44,16 @@ const type=function(){
         <p>Trending</p>
     </div>
     <div>
-        <p>Quickerads</p>
+        <p>
+Quickreads</p>
     </div>
     <div>
-        <p>Daily Digest</p>
+        <p>Daily Digest
+</p>
     </div>
     <div>
-        <p>Inida At 75</p>
+        <p>India At 75
+</p>
     </div>
     <div>
         <p>Festivals</p>
@@ -67,7 +71,8 @@ const type=function(){
         <p>Tach</p>
     </div>
     <div>
-        <p>Busoness</p>
+        <p>Business
+</p>
     </div>
     
     <div>
@@ -83,7 +88,13 @@ const type=function(){
         <option value="">Games</option>
        </select>
     </div>
-</div>`
+</div>  `
 }
 
 export { type }
+
+let Entertainment=document.getElementById("Entertainment");
+
+Entertainment.addEventListener("click",function(){
+    window.location.href=""
+})
