@@ -90,8 +90,8 @@ body{
     margin: auto;
     background-color: rgb(1,30,41);
     /* border: 3px solid red; */
-    position: fixed;
-    bottom: 0px;
+    /* position: fixed;
+    bottom: 0px; */
  }
  #fst{
     width: 85%;
