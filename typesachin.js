@@ -1,96 +1,111 @@
 const tpschin=function(){
-    return `<div id="withoutbox">
-    <div>
-        <p>Home</p>
-    </div>
-    <div>
-        <p>Latest</p>
-    </div>
-    <div>
-        <p>India</p>
-    </div>
-    <div>
-        <p>World</p>
-    </div>
-    <div>
-        <p>Noida</p>
-    </div>
-    <div>
-        <p id="Entertainment">Entertainment
-</p>
-    </div>
-    <div>
-        <p>Cricket</p>
-    </div>
-    <div>
-        <p>Lifestyle</p>
-    </div>
-    <div>
-        <p>Astrology</p>
-    </div>
-    <div>
-        <p>Editorials</p>
-    </div>
-    <div>
-        <p>For You</p>
-    </div>
-    <div>
-        <p>Shop Now</p>
-    </div>
+ return `     <div id="withoutbox">
+ <div  >
+   <a href="./index.html">Home</a>
+     
+ </div>
+ <div>
+     <a href="">Latest</a>
     
+ </div>
+ <div>
+     <a href="./india.html">India</a>
+     
+ </div>
+ <div>
+     <a href="./world.html">World</a>
+    
+ </div>
+ <div>
+     <a href="">Noida</a>
+   
+ </div>
+ <div>
+     <a href="./entertainement.html">Entertainment</a>
+
+ </div>
+ <div>
+     <a href="">Cricket</a>
+      
+ </div>
+ <div>
+     <a href="">Lifestyle</a>
+    
+ </div>
+ <div>
+    <a href="./science.html">Science</a>
+ </div>
+ <div>
+     <a href="">Editorials</a>
+     
+ </div>
+ <div>
+     <a href="">For You</a>
+    
+ </div>
+ <div>
+     <a href="">Shop Now</a>
+      
+ </div>
+ 
 </div>
 <div id="withbox">
-    <div>
-        <p>Trending</p>
-    </div>
-    <div>
-        <p>
-Quickreads</p>
-    </div>
-    <div>
-        <p>Daily Digest
-</p>
-    </div>
-    <div>
-        <p>India At 75
-</p>
-    </div>
-    <div>
-        <p>Festivals</p>
-    </div>
-    <div>
-        <p>quiz</p>
-    </div>
-    <div>
-        <p>Videos</p>
-    </div>
-    <div>
-        <p>Photos</p>
-    </div>
-    <div>
-        <p>Tach</p>
-    </div>
-    <div>
-        <p>Business
-</p>
-    </div>
+ <div>
+     <a href="./trending.html">Trending</a>
+     
+ </div>
+ <div>
+     <a href="">Quickreads</a>
+
+ </div>
+ <div>
+     <a href="">Daily Digest</a>
+
+ </div>
+ <div>
+     <a href="">India At 75</a>
+
+ </div>
+ <div>
+     <a href="./sports.html">Sports</a>
+   
+ </div>
+ <div>
+     <a href="">quiz</a>
+     
+ </div>
+ <div>
+     <a href="">Videos</a>
     
-    <div>
-       <select name=" " id="more"  >
-        <option value="">+8 More</option>
-        <option value="">Sport</option>
-        <option value="">Web Story</option>
-        <option value="">Delhi News</option>
-        <option value="">Mumbai News</option>
-        <option value="">Bangluru News</option>
-        <option value="">Following</option>
-        <option value="">HT Premium</option>
-        <option value="">Games</option>
-       </select>
-    </div>
+ </div>
+ <div>
+     <a href="">Photos</a>
+     
+ </div>
+ <div>
+     <a href="./tech.html">Tech</a>
+  
+ </div>
+ <div>
+     <a href="./business.html">Business</a>
+
+ </div>
+ 
+ <div>
+    <select name=" " id="more"  >
+     <option value="">+8 More</option>
+     <option value="">Sport</option>
+     <option value="">Web Story</option>
+     <option value="">Delhi News</option>
+     <option value="">Mumbai News</option>
+     <option value="">Bangluru News</option>
+     <option value="">Following</option>
+     <option value="">HT Premium</option>
+     <option value="">Games</option>
+    </select>
+ </div>
 </div>  `
 }
 
  export default tpschin
-
  
