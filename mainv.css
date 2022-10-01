@@ -1,0 +1,262 @@
+body{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: "Lato",sans-serif;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+/* #container > div{ */
+    /* width: 500px; */
+    /* border: 1px solid black; */
+    /* height: 1000px; */
+/* } */
+.secHdg {
+    text-align: center;
+    font-family: "blacker_pro_displayheavy";
+    font-size: 30px;
+    font-weight: normal;
+}
+.hdgStyle span{
+    color:#00b1cd;
+}
+#container>#latest_news{
+    flex: 2;
+}
+#container>#top_news{
+    flex: 4;
+    padding: 5px;
+}
+#container>#viral{
+    flex: 3;
+}
+#container #latest_news_div>div:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#container>#top_news>#news:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#container #top_news_div>div:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#container #viral_news>div:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#container #shopping>div:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#top_news_div>div{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+}
+#top_news_div div>img{
+    width: 200px;
+    height: 180px;
+    border-radius: 5%;
+}
+
+#latest_news_div>div{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    text-align: left;
+    cursor: pointer;
+    justify-content: left;
+    padding: 0px 16px;
+}
+
+
+ h4{
+    color: skyblue;
+}
+#top_news_div div:nth-child(1){
+    text-align: left;
+    justify-content: left;
+     padding: 0px 10px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  max-height: 500px;
+}
+
+.slideshow-container img{
+    height: 300px;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#advertise >img {
+    width: 100%;
+    height: 300px;
+}
+#advertise{
+    margin-top: 30px;
+}
+
+#viral_news>div{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+}
+#viral_news div>img{
+    width: 100px;
+    height: 80px;
+    border-radius: 5%;
+}
+
+/* #viral_news>div:first-child >h3{
+  width: 80%;
+} */
+#news{
+    text-align: left;
+    cursor: pointer;
+    justify-content: left;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#shopping>div{
+  display: flex;
+  width: 100%;
+  height: 200px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  justify-content: center;
+  margin-top: 10px;
+}
+#shopping>div>div:nth-child(1){
+  width: 100%;
+  flex: 2;
+}
+#shopping>div>div:nth-child(2){
+  flex: 2;
+}
+#shopping>div div>img{
+  width: 100px;
+  margin-top: 20px;
+}
+
+#news_vedio>div{
+  display: flex;
+  margin-top: 20px;
+}
+
+#news_vedio>div>iframe{
+  width: 100px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+#news_vedio>div>div{
+  width: 200px;
+}
