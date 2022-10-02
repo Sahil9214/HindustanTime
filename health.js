@@ -1,5 +1,4 @@
-
-//Left side
+const api=`14fd71119a624b3eb6774156431718bc`;
 const left = document.getElementById("left_bar");
 
 const getData = async () => {
@@ -7,7 +6,7 @@ const getData = async () => {
     try {
 
         let res = await fetch(`
-        https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=8950f831476a4721992122f92b9a9ccb`)
+        https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=${api}`)
         let data = await res.json();
         console.log("data", data.articles);
         appendData(data.articles)
@@ -53,7 +52,7 @@ const ind = document.getElementById("india")
 const india = async () => {
     try {
         let res = await fetch(`
-        https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=8950f831476a4721992122f92b9a9ccb`);
+        https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=${api}`);
         let data = await res.json();
         console.log("basketball", data.articles)
         dataappend(data.articles)
@@ -116,8 +115,7 @@ let photos = document.getElementById("photos");
 const photo = async () => {
 
     try {
-        let res = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=8950f831476a4721992122f92b9a9ccb
-        `);
+        let res = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=${api}`);
        
   
         let data = await res.json();
