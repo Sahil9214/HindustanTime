@@ -6,7 +6,7 @@ async function news(){
 
     try{
 
-        let res = await fetch(`https://newsapi.org/v2/top-headlines?category=general&language=en&apiKey=${key}`)
+        let res = await fetch(`https://newsapi.org/v2/top-headlines?category=general&language=en&apiKey=e4aaa246655d44f2916ad92c921dbf63`)
 
         let data = await res.json()
             console.log(data.articles)
@@ -68,7 +68,7 @@ async function news2(){
 
     try{
 
-        let res = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=b0d6ca33bfec4371a11f04b298305209`)
+        let res = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=e4aaa246655d44f2916ad92c921dbf63`)
 
         let data = await res.json()
             console.log(data)
