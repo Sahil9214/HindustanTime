@@ -1,12 +1,12 @@
 
-//Left side
+const api=`14fd71119a624b3eb6774156431718bc`;
 const left = document.getElementById("left_bar");
 
 const getData = async () => {
 
     try {
 
-        let res = await fetch(`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=8950f831476a4721992122f92b9a9ccb`)
+        let res = await fetch(`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${api}`)
         let data = await res.json();
         console.log("data", data.articles);
         appendData(data.articles)
@@ -51,7 +51,7 @@ const ind = document.getElementById("india")
 
 const india = async () => {
     try {
-        let res = await fetch(`https://newsapi.org/v2/everything?q=apple&from=2022-09-29&to=2022-09-29&sortBy=popularity&apiKey=8950f831476a4721992122f92b9a9ccb`)
+        let res = await fetch(`https://newsapi.org/v2/everything?q=apple&from=2022-09-29&to=2022-09-29&sortBy=popularity&apiKey=${api}`)
         let data = await res.json();
         console.log("topnews", data.articles)
         dataappend(data.articles)
@@ -113,7 +113,7 @@ const dataappend = (data) => {
 let score = document.getElementById("cricket")
 const cricket = async () => {
     try {
-        let res = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=8950f831476a4721992122f92b9a9ccb`);
+        let res = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=${api}`);
         let data = await res.json();
         console.log("cricket", data.articles);
         cricketdata(data.articles)
@@ -244,7 +244,7 @@ let photos = document.getElementById("photos");
 const photo = async () => {
 
     try {
-        let res = await fetch(`https://newsapi.org/v2/everything?q=tesla&from=2022-08-30&sortBy=publishedAt&apiKey=8950f831476a4721992122f92b9a9ccb`);
+        let res = await fetch(`https://newsapi.org/v2/everything?q=tesla&from=2022-08-30&sortBy=publishedAt&apiKey=${api}`);
        
   
         let data = await res.json();
