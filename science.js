@@ -83,7 +83,7 @@ function append2(data){
     let latest_news = document.getElementById("latest_news_div");
     latest_news.innerHTML = null;
 
-    for(let i=0;i<data.length-1;i++){
+    for(let i=0;i<data.length;i++){
         let div = document.createElement("div");
 
         let h5 = document.createElement("h3");
