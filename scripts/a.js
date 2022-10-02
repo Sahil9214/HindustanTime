@@ -1,3 +1,4 @@
+let btn = document.getElementById("submit").addEventListener("click",adduser)
 function adduser(){
     let name = document.getElementById("name").value
     let number = document.getElementById("numinput").value
@@ -9,7 +10,7 @@ function adduser(){
     }
     localStorage.setItem("userdata",JSON.stringify(u))
     window.location.href="otp.html"
+    console.log("hello");
 }
 
-let btn = document.getElementById("submit").addEventListener("click",adduser)
 
