@@ -6,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="utkarsh.css">
+    <link rel="stylesheet" href="style/sachin.css">
     <title>Sports page</title>
 </head>
 
 
 <body>
     <div id="navbar"></div>
+    <div id="type"></div>
     <div id="container">
         <div id="left_sidebar">
-            <h2 class="secHdg htImpressionTrackingTop eventFired" data-vars-page-type="LHS"
+            <!-- <h2 class="secHdg htImpressionTrackingTop eventFired" data-vars-page-type="LHS"
                 data-vars-widget-name="Latest News" data-vars-placement-number="1">
                 <span class="hdgTexure"></span>
                 <span class="hdgStyle">
@@ -22,12 +24,13 @@
                         <span>[</span>Latest News<span>]</span>
                     </a>
                 </span>
-            </h2>
+            </h2> -->
+            <h2 id="news"><span class="color">[</span><span>Latest News</span><span  class="color">]</span></h2>
             <div id="left_bar"></div>
             <div id="advertigment_shop"></div>
         </div>
         <div id="block">
-            <h2 class="secHdg htImpressionTrackingTop eventFired" data-vars-page-type="LHS"
+            <!-- <h2 class="secHdg htImpressionTrackingTop eventFired" data-vars-page-type="LHS"
                 data-vars-widget-name="Latest News" data-vars-placement-number="1">
                 <span class="hdgTexure">
                 <span class="hdgStyle">
@@ -36,13 +39,13 @@
                     </a>
                 </span>
                 </span>
-            </h2>
-            
+            </h2> -->
+            <h2 id="news"><span class="color">[</span><span>TopNews</span><span  class="color">]</span></h2>
       <div id="hardcore">
-        <h3>Ukraine :UN secectry Gernal Condemed Russia attack on Ukraine</h3>
-        <a id="digvijay" href="/india-news">BBC news</a>
+        <h3>'If Bumrah is not fit, you must...': Ex-selector snubs Shami and picks IPL star as Indian pacer's replacement for T20 WC</h3>
+        <a id="digvijay" href="/india-news">Hindustan Times </a>
    
-        <img id="singh" src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/29-06-2021-UN-Photo-UN7956747-Guterres.jpg/image770x420cropped.jpg" alt="">
+        <img id="singh" src="https://images.hindustantimes.com/img/2022/09/30/550x309/AP07-12-2022-000211A-0_1664533044745_1664533044745_1664533065194_1664533065194.jpg" alt="">
       </div>
 
             <div id="india"></div>
@@ -51,11 +54,11 @@
             <div id="cricket"></div>
 
             <div id="adver1">
-                <h3>The World Say GoodBye</h3>
-                <a id="digvijay" href="/india-news">india news</a>
-                <p class="time">Daily Briefing: Queen Elizabeth II’s funeral is estimated to have been the single most-watched television event of all time.</p>
+                <h3>Deepak Chahar started off by getting a wicket in the first over and then got another in his second(AP)</h3>
+                <a id="digvijay" href="/india-news">Hindustan Times</a>
+                <p class="time">Published on oct 1, 2022 10:41 PM IST</p>
 
-             <img src="https://reaction.life/wp-content/uploads/2022/09/2K104C8-600x375.jpg" alt="">
+             <img src="https://images.hindustantimes.com/img/2022/09/28/550x309/PTI09-28-2022-000271B-0_1664384456578_1664384456578_1664384500672_1664384500672.jpg" alt="">
        
             </div>
             <div id="bollywood"></div>
@@ -85,12 +88,34 @@
 
 
     </div>
+    <div id="footer"></div>
 
 </body>
 
 </html>
 <script src="Sports.js"></script>
+<script type="module">
+    import navbar from "./navbar.js"
+    console.log(navbar);
 
+    let navbar1 = document.getElementById("navbar");
+    navbar1.innerHTML = navbar()
+
+
+    import footer from "./footer.js";
+    console.log(footer);
+
+    let footer1 = document.getElementById("footer")
+    footer1.innerHTML = footer();
+
+
+    import tpschin  from "./typesachin.js";
+    console.log(tpschin);
+
+    let type1 = document.getElementById("type")
+    type1.innerHTML = tpschin()
+
+</script>
 
 <!-- 56e8db35b750e1f62d00c037f2b62bc768380239e8efd019da69180ac1600b5f
 https://apiv2.allsportsapi.com/basketball/?met=Countries&APIkey=56e8db35b750e1f62d00c037f2b62bc768380239e8efd019da69180ac1600b5f -->

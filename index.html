@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="utkarsh.css">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/sachin.css">
     <title>Hindustan Times</title>
 </head>
 <style>
@@ -20,6 +21,7 @@
 
 <body>
     <div id="navbar"></div>
+    <div id="type"></div>
     <div id="container">
         <div id="left_sidebar">
             <h2 class="secHdg htImpressionTrackingTop eventFired" data-vars-page-type="LHS"
@@ -101,7 +103,7 @@
 
 
     </div>
-
+<div id="footer"></div>
 </body>
 
 </html>
@@ -114,4 +116,17 @@ console.log(navbar);
 let navbar1=document.getElementById("navbar");
 navbar1.innerHTML=navbar()
 
+
+import  footer from "./footer.js";
+   console.log(footer);
+
+   let footer1=document.getElementById("footer")
+footer1.innerHTML=footer()
+
+
+import tpschin  from "./typesachin.js";
+    console.log(tpschin);
+
+    let type1 = document.getElementById("type")
+    type1.innerHTML = tpschin()
 </script>

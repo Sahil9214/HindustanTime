@@ -1,3 +1,25 @@
+import navbar from "./navbar.js"
+     console.log(navbar);
+
+    let navbar1=document.getElementById("navbar");
+    navbar1.innerHTML=navbar()
+
+    import footer from "./footer.js"
+
+    let footer1 = document.getElementById("footer");
+    console.log(footer)
+    footer1.innerHTML = footer();
+
+    import tpschin from "./typesachin.js"
+     console.log(navbar);
+
+    let type1=document.getElementById("types");
+    type1.innerHTML=tpschin()
+
+
+
+
+
 
 // const key = `b0d6ca33bfec4371a11f04b298305209`;
 const key = `b0599e59600b4c129dd569247aca6d0b`;

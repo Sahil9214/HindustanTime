@@ -8,7 +8,13 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     justify-content: space-between;
+
  position: fixed;
+ z-index: 1;
+
+   position: fixed;
+   z-index: 1;
+
 }
 body{
     background-color: rgb(245,245,245);
@@ -25,6 +31,8 @@ body{
     justify-content: space-between;
  position: sticky;
  top: 0px;
+
+
  
      
 }
@@ -312,6 +320,7 @@ width: 85%;
       background-color: white;
    position: sticky;
      top: 120px;
+     z-index: 2;
     }
 #withoutbox{
    justify-content: center;
