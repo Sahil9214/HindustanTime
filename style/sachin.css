@@ -8,7 +8,8 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     justify-content: space-between;
- position: fixed;
+   position: fixed;
+   z-index: 1;
 }
 body{
     background-color: rgb(245,245,245);
@@ -312,14 +313,21 @@ width: 85%;
       background-color: white;
    position: sticky;
      top: 120px;
+     z-index: 2;
     }
 #withoutbox{
+   justify-content: center;
+   text-align: center;
+   align-items: center;
    width: 85%;
    margin: auto;
    display: flex;
    /* border: 1px solid green; */
 }
 #withbox{
+   justify-content: center;
+   text-align: center;
+   align-items: center;
    width: 85%;
    margin: auto;
    display: flex;
@@ -328,12 +336,16 @@ width: 85%;
 #withoutbox>div{
    /* border: 1px dotted red; */
    margin: auto;
-
+   justify-content: center;
+   text-align: center;
+   align-items: center;
 }
 #withbox>div{
   border: 1px solid grey;
    margin: auto;
-   
+   justify-content: center;
+   text-align: center;
+   align-items: center;
    /* background-color: green; */
    border-radius: 15px;
    height: 30px;
@@ -346,25 +358,37 @@ width: 85%;
    background-color: #bdf6ff;
    border: 1px solid blue;
    cursor: pointer;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
 }
-#withoutbox>div p{
+#withoutbox>div a{
    font-family: Lato, sans-serif;
    font-size: 14px;
    line-height: 20px;
    font-weight: bold;
-   
+     text-decoration: none;
    color: 212121;
+  
+
 }
-#withoutbox>div p:hover{
+#withoutbox>div a:hover{
   color: #00b1cd;
   cursor: pointer;
+  
+
 }
-#withbox>div p{
+#withbox>div a{
+   text-decoration: none;
    /* margin-bottom: -50px; */
    color: black;
-   margin-top: 5px;
+   margin-top: 15px;
    font-family: Lato, sans-serif;
    font-size: 14px;
+   /* justify-content: center;
+    text-align: center;
+    align-items: center; */
+
    line-height: 20px;
 }
 #more{
