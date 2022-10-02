@@ -17,7 +17,7 @@ const tpschin=function(){
     
  </div>
  <div>
-     <a href="">Noida</a>
+     <a href="./general.html">General</a>
    
  </div>
  <div>
@@ -67,7 +67,7 @@ const tpschin=function(){
 
  </div>
  <div>
-     <a href="./sports.html">Sports</a>
+     <a href="">Sports</a>
    
  </div>
  <div>
