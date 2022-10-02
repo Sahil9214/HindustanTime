@@ -1,6 +1,6 @@
 
 //Left side
-const api=`14fd71119a624b3eb6774156431718bc`;
+const api=`b0599e59600b4c129dd569247aca6d0b`;
 
 const left = document.getElementById("left_bar");
 
