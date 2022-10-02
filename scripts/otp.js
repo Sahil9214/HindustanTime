@@ -14,6 +14,7 @@ document.getElementById("votp").addEventListener("click",function(){
     op = document.getElementById("otp").value
     if(usrdata.otp==op){
         alert("OTP Verified")
+        window.location.href="index.html"
     }else{
         alert("Wrong OTP")
     }
