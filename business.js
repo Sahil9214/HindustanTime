@@ -20,7 +20,7 @@ import navbar from "./navbar.js"
 
 
 //backup key=  `b0599e59600b4c129dd569247aca6d0b`;
-const key = `b0d6ca33bfec4371a11f04b298305209`;
+const key = `15a89a342dda4ae983fbed68c60b21a3`;
  const API  = `https://newsapi.org/v2/top-headlines?country=us&apiKey=e4aaa246655d44f2916ad92c921dbf63`;
 
 
