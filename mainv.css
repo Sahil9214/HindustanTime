@@ -233,6 +233,7 @@ body{
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   justify-content: center;
+  background-color: white;
   margin-top: 10px;
 }
 #shopping>div>div:nth-child(1){
