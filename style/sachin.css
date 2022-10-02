@@ -8,13 +8,8 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     justify-content: space-between;
-
  position: fixed;
  z-index: 1;
-
-   position: fixed;
-   z-index: 1;
-
 }
 body{
     background-color: rgb(245,245,245);
@@ -31,8 +26,6 @@ body{
     justify-content: space-between;
  position: sticky;
  top: 0px;
-
-
  
      
 }
@@ -315,8 +308,7 @@ width: 85%;
    height: 20px;
  }
     #types{
-      /* border: 1px solid red; */
-      /* position: fixed; */
+       
       background-color: white;
    position: sticky;
      top: 120px;
@@ -334,9 +326,7 @@ width: 85%;
     
 }
 #withbox{
-   justify-content: center;
-   text-align: center;
-   align-items: center;
+   
    width: 85%;
    margin: auto;
    display: flex;
@@ -350,12 +340,14 @@ width: 85%;
    margin-top: 10px;
    align-items: center;
    margin-bottom: 15px;
+   align-content: center;
+ 
 }
 #withbox>div{
   border: 1px solid grey;
    margin: auto;
    margin-top: 10px;
- 
+   align-content: center;
    /* background-color: green; */
    border-radius: 15px;
    height: 30px;
@@ -368,9 +360,7 @@ width: 85%;
    background-color: #bdf6ff;
    border: 1px solid blue;
    cursor: pointer;
-   justify-content: center;
-   text-align: center;
-   align-items: center;
+    
 }
 #withoutbox>div a{
    font-family: Lato, sans-serif;
@@ -393,6 +383,7 @@ width: 85%;
    color: black;
    font-family: Lato, sans-serif;
    font-size: 14px;
+   
 }
 #more{
    border: 0px;
@@ -560,7 +551,7 @@ width: 85%;
 #line{
    width: 85%;
    margin: auto;
-   /* height: 1px; */
+  
    border: 1px solid rgb(48,71,89);
    margin-bottom: 20px;
 }
