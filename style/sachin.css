@@ -8,7 +8,9 @@
    grid-template-columns: repeat(3, 1fr);
    gap: 20px;
    justify-content: space-between;
-
+   position: fixed;
+   z-index: 1;
+   top: 0;
    /* #navbar{
 
       width: 100%;
