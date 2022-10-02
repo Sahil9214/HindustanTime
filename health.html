@@ -15,18 +15,10 @@
 
 <body>
     <div id="navbar"></div>
-    <div id="type"></div>
+    <div id="types"></div>
     <div id="container">
         <div id="left_sidebar">
-            <h2 class="secHdg htImpressionTrackingTop eventFired" data-vars-page-type="LHS"
-                data-vars-widget-name="Latest News" data-vars-placement-number="1">
-                <span class="hdgTexure"></span>
-                <span class="hdgStyle">
-                    <a href="https://www.hindustantimes.com/latest-news">
-                        <span>[</span>Science News<span>]</span>
-                    </a>
-                </span>
-            </h2>
+            <h2 id="news"><span class="color">[</span><span> Science News</span><span  class="color">]</span></h2>
             <div id="left_bar"></div>
             <div id="advertigment_shop"></div>
         </div>
@@ -76,10 +68,7 @@
                         height="250" alt="" class="img_ad"></a>
             </div>
 
-            <div id="trending">
-                <div class="secHdg"><span class="hdgTexure"></span><span class="hdgStyle"><span>[</span>Technology
-                        Photos<span>]</span></span></div>
-            </div>
+            <h2 id="news"><span class="color">[</span><span>Technology News</span><span  class="color">]</span></h2>
 
             <div id="photos"></div>
             <div id="adversright"></div>
@@ -111,7 +100,16 @@
    console.log(footer);
 
    let footer1=document.getElementById("footer")
-footer1.innerHTML=footer()
+footer1.innerHTML=footer();
+
+
+
+import tpschin from "./typesachin.js"
+   console.log(navbar);
+
+  let type1=document.getElementById("types");
+  type1.innerHTML=tpschin()
+
 </script>
 
 
