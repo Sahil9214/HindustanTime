@@ -7,7 +7,7 @@ const getData = async () => {
     try {
 
         let res = await fetch(`
-        https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=368d5c72177441deb75ef482bdaa8817`)
+        https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=8950f831476a4721992122f92b9a9ccb`)
         let data = await res.json();
         console.log("data", data.articles);
         appendData(data.articles)
@@ -53,7 +53,7 @@ const ind = document.getElementById("india")
 const india = async () => {
     try {
         let res = await fetch(`
-        https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=368d5c72177441deb75ef482bdaa8817`);
+        https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=8950f831476a4721992122f92b9a9ccb`);
         let data = await res.json();
         console.log("basketball", data.articles)
         dataappend(data.articles)
@@ -110,143 +110,13 @@ const dataappend = (data) => {
 
 
 }
-// 
-
-// let score = document.getElementById("cricket")
-// const cricket = async () => {
-//     try {
-//         let res = await fetch(`https://newsapi.org/v2/top-headlines?country=gb&category=sports&apiKey=368d5c72177441deb75ef482bdaa8817`);
-//         let data = await res.json();
-//         console.log("cricket", data.articles);
-//         cricketdata(data.articles)
-
-//     }
-//     catch (err) {
-//         console.log(err);
-//     }
-// }
-
-// cricket()
-
-
-// const cricketdata = (data) => {
-
-//     ind.innerHTML = null;
-
-
-
-//     for (let i = 0; i < data.length; i++) {
-
-
-//         let div = document.createElement("div");
-
-//         let img = document.createElement("img");
-//         img.src = data[i].urlToImage;
-
-//         let h4 = document.createElement("h4");
-//         h4.innerText = data[i].title;
-
-//         let h5 = document.createElement("h5");
-//         h5.innerText = data[i].source.name;
-//         h5.style.color = "#00b1cd";
-
-//         let p = document.createElement("p");
-//         p.innerText = data[i].description;
-
-
-//         let value3 = document.createElement("div");
-//         value3.id = "value2";
-//         value3.append(h4, h5, p);
-
-//         let imagee3 = document.createElement("div");
-//         imagee3.id = "img2";
-//         imagee3.append(img);
-
-
-
-//         div.append(value3, imagee3)
-
-//         score.append(div)
-
-
-//     }
-
-
-
-// }
-
-// //BOLLYWOOD
-
-
-// let bolly = document.getElementById("bollywood")
-// const bollywoo = async () => {
-//     try {
-//         let res = await fetch(`https://masai-mock-api-2.herokuapp.com/news/top-headlines?country=us`);
-//         let data = await res.json();
-//         console.log("bollywood", data);
-//         bollywooddata(data)
-
-//     }
-//     catch (err) {
-//         console.log(err);
-//     }
-// }
-
-// bollywoo()
-
-
-// const bollywooddata = (data) => {
-
-//     ind.innerHTML = null;
-
-
-
-//     for (let i = 0; i < data.length; i++) {
-
-
-//         let div = document.createElement("div");
-
-//         let img = document.createElement("img");
-//         img.src = data[i].urlToImage;
-
-//         let h4 = document.createElement("h4");
-//         h4.innerText = data[i].title;
-
-//         let h5 = document.createElement("h5");
-//         h5.innerText = data[i].source.name;
-//         h5.style.color = "#00b1cd";
-
-//         let p = document.createElement("p");
-//         p.innerText = data[i].description;
-
-
-//         let value4 = document.createElement("div");
-//         value4.id = "value3";
-//         value4.append(h4, h5, p);
-
-//         let imagee4 = document.createElement("div");
-//         imagee4.id = "img3";
-//         imagee4.append(img);
-
-
-
-//         div.append(value4, imagee4)
-
-//         bolly.append(div)
-
-
-//     }
-
-
-
-// }
 //Technology
 let photos = document.getElementById("photos");
 
 const photo = async () => {
 
     try {
-        let res = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=368d5c72177441deb75ef482bdaa8817
+        let res = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=8950f831476a4721992122f92b9a9ccb
         `);
        
   
