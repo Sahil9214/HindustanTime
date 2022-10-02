@@ -321,6 +321,8 @@ width: 85%;
    margin: auto;
    display: flex;
    /* border: 1px solid green; */
+   border-bottom: 1px dotted #00b1cd;
+    
 }
 #withbox{
    justify-content: center;
@@ -336,14 +338,15 @@ width: 85%;
    margin: auto;
    justify-content: center;
    text-align: center;
+   margin-top: 10px;
    align-items: center;
+   margin-bottom: 15px;
 }
 #withbox>div{
   border: 1px solid grey;
    margin: auto;
-   justify-content: center;
-   text-align: center;
-   align-items: center;
+   margin-top: 10px;
+ 
    /* background-color: green; */
    border-radius: 15px;
    height: 30px;
@@ -378,16 +381,9 @@ width: 85%;
 }
 #withbox>div a{
    text-decoration: none;
-   /* margin-bottom: -50px; */
    color: black;
-   margin-top: 15px;
    font-family: Lato, sans-serif;
    font-size: 14px;
-   /* justify-content: center;
-    text-align: center;
-    align-items: center; */
-
-   line-height: 20px;
 }
 #more{
    border: 0px;
