@@ -19,7 +19,7 @@ const navbar= function(){
          </div>
      </div>
      <div id="down">
-         <p>Monday,Oct 03,2022 | New Delhi 25*C  <img src="./imgags/cloudy.png" alt="">
+         <p>Monday,Oct 02,2022 | New Delhi 25*C  <img src="./imgags/cloudy.png" alt="">
          </p>
      </div>
  </div>
@@ -50,7 +50,7 @@ const navbar= function(){
 
      <div id="sub">
          <div>
-         <p id="b">Start 15 Days Free Trial</p>
+         <p id="b">Start 15 Days</p>
          <button id="btn">Subscribe</button>
      </div>
      </div>
