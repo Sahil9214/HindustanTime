@@ -8,13 +8,9 @@
    grid-template-columns: repeat(3, 1fr);
    gap: 20px;
    justify-content: space-between;
-<<<<<<< HEAD
-
  }
-=======
-   position: sticky;
-   z-index: 1;
-   top: 0;
+
+   
    /* #navbar{
 
       width: 100%;
@@ -67,9 +63,9 @@
          margin: auto;
          /* border: 1px solid white; */
          /* padding: 10px; */
-      } */
+       */
 
->>>>>>> 2e3dd3a82519c250037d82ab9bf606ed30885afb
+
       #ht>img {
          /* border: 2px solid rgb(250, 5, 5); */
          width: 90%;
