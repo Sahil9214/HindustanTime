@@ -8,8 +8,68 @@
    grid-template-columns: repeat(3, 1fr);
    gap: 20px;
    justify-content: space-between;
+<<<<<<< HEAD
 
  }
+=======
+   position: sticky;
+   z-index: 1;
+   top: 0;
+   /* #navbar{
+
+      width: 100%;
+      background-color: rgb(1, 30, 41);
+      /* background-color: red; */
+      /* height: 120px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-content: space-between;
+
+      position: fixed;
+      z-index: 1;
+
+      position: fixed;
+      z-index: 1; */
+
+   /* } */ 
+
+
+ 
+
+    /* body{
+         background-color: rgb(245, 245, 245);
+      } */
+/* 
+      #navbar {
+         /* border: 1px solid red; */
+         
+
+      /* #navbar {
+        
+         width: 100%;
+         background-color: rgb(1, 30, 41);
+        
+         height: 120px;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         gap: 20px;
+         justify-content: space-between;
+         position: sticky;
+         top: 0px;
+
+
+      } */
+
+      /* #navbar>div {
+         width: 100%;
+         height: 90%;
+         margin: auto;
+         /* border: 1px solid white; */
+         /* padding: 10px; */
+      } */
+
+>>>>>>> 2e3dd3a82519c250037d82ab9bf606ed30885afb
       #ht>img {
          /* border: 2px solid rgb(250, 5, 5); */
          width: 90%;
