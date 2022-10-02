@@ -244,7 +244,7 @@ let photos = document.getElementById("photos");
 const photo = async () => {
 
     try {
-        let res = await fetch(`https://newsapi.org/v2/everything?q=tesla&from=2022-08-30&sortBy=publishedAt&apiKey=${api}`);
+        let res = await fetch(`https://newsapi.org/v2/everything?q=apple&from=2022-10-01&to=2022-10-01&sortBy=popularity&apiKey=42443a44e7cf40689f06e012cef4fdba`);
        
   
         let data = await res.json();
