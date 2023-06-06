@@ -4,7 +4,7 @@ Hindutsan time clone
 <p>HTML</p>
 <p>CSS</p>
 <p>JavaScript</p>
-<p>Api</p>
+<p>Api Call</p>
 <h3>World Leading network wide news over 200000 people daily visit on the website.Hindustan Times is an Indian English-language daily newspaper based in Delhi. It is the flagship publication of HT Media, an entity controlled by the KK Birla family, and is owned by Shobhana Bhartia.</h3>
 <h2>Home Page</h2>
 <img src="https://user-images.githubusercontent.com/106021674/209839386-0379d28a-49e5-40e8-832a-3fcee94e9a34.png" />
